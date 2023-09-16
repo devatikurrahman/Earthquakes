@@ -11,6 +11,8 @@
 		6066D8472AB5250F00F72101 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D8462AB5250F00F72101 /* ContentView.swift */; };
 		6066D8492AB5251000F72101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6066D8482AB5251000F72101 /* Assets.xcassets */; };
 		6066D84C2AB5251100F72101 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6066D84B2AB5251100F72101 /* Preview Assets.xcassets */; };
+		6066D85B2AB5294E00F72101 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D85A2AB5294E00F72101 /* Quake.swift */; };
+		6066D85D2AB52EF000F72101 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6066D85C2AB52EF000F72101 /* QuakeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		6066D8462AB5250F00F72101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6066D8482AB5251000F72101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6066D84B2AB5251100F72101 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6066D85A2AB5294E00F72101 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		6066D85C2AB52EF000F72101 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		6066D8572AB5284400F72101 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6066D85A2AB5294E00F72101 /* Quake.swift */,
+				6066D85C2AB52EF000F72101 /* QuakeError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6066D85D2AB52EF000F72101 /* QuakeError.swift in Sources */,
 				6066D8472AB5250F00F72101 /* ContentView.swift in Sources */,
+				6066D85B2AB5294E00F72101 /* Quake.swift in Sources */,
 				6066D8452AB5250F00F72101 /* EarthquakesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
