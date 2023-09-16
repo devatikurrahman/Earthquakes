@@ -51,6 +51,8 @@
 		6066D8432AB5250F00F72101 /* Earthquakes */ = {
 			isa = PBXGroup;
 			children = (
+				6066D8572AB5284400F72101 /* Models */,
+				6066D8562AB5283D00F72101 /* Views */,
 				6066D8442AB5250F00F72101 /* EarthquakesApp.swift */,
 				6066D8462AB5250F00F72101 /* ContentView.swift */,
 				6066D8482AB5251000F72101 /* Assets.xcassets */,
@@ -65,6 +67,20 @@
 				6066D84B2AB5251100F72101 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6066D8562AB5283D00F72101 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6066D8572AB5284400F72101 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
