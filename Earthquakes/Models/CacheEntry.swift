@@ -15,6 +15,6 @@ final class CacheEntryObject {
 }
 
 enum CacheEntry {
-    case isProgress(Task<QuakeLocation, Error>)
+    case inProgress(Task<QuakeLocation, Error>)
     case ready(QuakeLocation)
 }
