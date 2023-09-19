@@ -29,6 +29,8 @@
 		609B330D2AB75CA600AC5C8E /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B33072AB75CA600AC5C8E /* ToolbarStatus.swift */; };
 		609B330F2AB75CD800AC5C8E /* Quake+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B330E2AB75CD800AC5C8E /* Quake+Color.swift */; };
 		609B33112AB75CFB00AC5C8E /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B33102AB75CFB00AC5C8E /* QuakeMagnitude.swift */; };
+		60ACE80A2AB9FBCF00EA4013 /* Quake+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ACE8092AB9FBCF00EA4013 /* Quake+Preview.swift */; };
+		60ACE80C2AB9FD1600EA4013 /* QuakeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ACE80B2AB9FD1600EA4013 /* QuakeDetail.swift */; };
 		60AD2B6B2AB5CF1100B43EB4 /* EarthquakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AD2B6A2AB5CF1100B43EB4 /* EarthquakesTests.swift */; };
 		60AD2B742AB60DFA00B43EB4 /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AD2B732AB60DFA00B43EB4 /* GeoJSON.swift */; };
 		60AD2B762AB616E100B43EB4 /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AD2B752AB616E100B43EB4 /* QuakeLocation.swift */; };
@@ -67,6 +69,8 @@
 		609B33072AB75CA600AC5C8E /* ToolbarStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
 		609B330E2AB75CD800AC5C8E /* Quake+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Quake+Color.swift"; sourceTree = "<group>"; };
 		609B33102AB75CFB00AC5C8E /* QuakeMagnitude.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeMagnitude.swift; sourceTree = "<group>"; };
+		60ACE8092AB9FBCF00EA4013 /* Quake+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Preview.swift"; sourceTree = "<group>"; };
+		60ACE80B2AB9FD1600EA4013 /* QuakeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeDetail.swift; sourceTree = "<group>"; };
 		60AD2B682AB5CF1100B43EB4 /* EarthquakesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthquakesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AD2B6A2AB5CF1100B43EB4 /* EarthquakesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesTests.swift; sourceTree = "<group>"; };
 		60AD2B712AB5D13400B43EB4 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			children = (
 				6066D84B2AB5251100F72101 /* Preview Assets.xcassets */,
 				60AD2B712AB5D13400B43EB4 /* TestData.swift */,
+				60ACE8092AB9FBCF00EA4013 /* Quake+Preview.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				6066D8462AB5250F00F72101 /* Quakes.swift */,
 				609B32FD2AB725D600AC5C8E /* QuakeRow.swift */,
 				609B33102AB75CFB00AC5C8E /* QuakeMagnitude.swift */,
+				60ACE80B2AB9FD1600EA4013 /* QuakeDetail.swift */,
 				609B33012AB75CA600AC5C8E /* ToolbarContent */,
 			);
 			path = Views;
@@ -296,12 +302,14 @@
 				609B330B2AB75CA600AC5C8E /* DeleteButton.swift in Sources */,
 				60AD2B762AB616E100B43EB4 /* QuakeLocation.swift in Sources */,
 				609B330A2AB75CA600AC5C8E /* RefreshButton.swift in Sources */,
+				60ACE80A2AB9FBCF00EA4013 /* Quake+Preview.swift in Sources */,
 				609B33092AB75CA600AC5C8E /* SelectButton.swift in Sources */,
 				609B33082AB75CA600AC5C8E /* EditButton.swift in Sources */,
 				609B32FA2AB6F19000AC5C8E /* TestDownloader.swift in Sources */,
 				6066D8472AB5250F00F72101 /* Quakes.swift in Sources */,
 				6066D85B2AB5294E00F72101 /* Quake.swift in Sources */,
 				6066D8452AB5250F00F72101 /* EarthquakesApp.swift in Sources */,
+				60ACE80C2AB9FD1600EA4013 /* QuakeDetail.swift in Sources */,
 				6092E64D2AB981290028FE10 /* NSCache+Subscript.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
